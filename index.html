@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+   
+    <title>Document</title>
+</head>
+<body>
+<header>
+    <div class="topnav" id="myTopnav">
+        
+        <a href="#home" class="active">Home</a>
+        
+        <a href="#news">News</a>
+        <a href="#cars">Cars</a>
+        <a href="#about">About</a>
+        <a href="#about">Register</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+    
+      </div>
+</header>
+    
+<section class="hero">
+    <div class="hero_text">
+        <h1>ENJOY THE PERFECT SELECTION OF QUALITY  RIDES</h1>
+        <p>Drive your dreams with our premium selection of cars. Find the perfect vehicle to match your style and taste at our car dealing shop today!
+            
+        </p>
+        <button id="signup-btn">SIGN UP</button>
+
+    </div>
+    <div>
+        <img src="./benz.png" alt="" class="music">
+    </div>
+    <div id="signup-modal" class="modal">
+		<div class="modal-content">
+			<span class="close">&times;</span>
+			<h2>Sign Up Form</h2>
+			<form>
+                
+				<input type="text" id="f_name" name="email" placeholder="First Name" required>
+				<input type="text" id="l_name" name="email" placeholder="Last Name" required>
+				<input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+				<input type="submit" value="Sign Up" onclick="formSubmit()">
+			</form>
+		</div>
+	</div>
+
+
+</section>
+
+<section  id="cars">
+    <div class="container">
+        <div class="wrapper">
+          <div class="banner-image"> </div>
+          <h1 class="car_spec"> Toyota Supra</h1>
+          <p>Brand New Toyota Supra, <br/>
+            Tear Nylon.</p>
+         </div>
+         <div class="button-wrapper"> 
+         <button class="btn outline">DETAILS</button>
+           <button class="btn fill">BUY NOW</button>
+         </div>
+           </div>
+       </div>
+       <!-- card2 -->
+       <div class="container">
+        <div class="wrapper">
+          <div class="banner-image2"> </div>
+          <h1 class="car_spec"> Mercedes Benz</h1>
+          <p>Brand new Mercedez Benz <br/>
+            Tear Nylon</p>
+         </div>
+         <div class="button-wrapper"> 
+         <button class="btn outline" >DETAILS</button>
+           <button class="btn fill">BUY NOW</button>
+         </div>
+           </div>
+       </div>
+       <!-- card3 -->
+       <div class="container">
+        <div class="wrapper">
+          <div class="banner-image3"> </div>
+          <h1 class="car_spec"> Mercedes Benz</h1>
+          <p>Brand new Mercedez Benz <br/>
+            Tear Nylon</p>
+         </div>
+         <div class="button-wrapper"> 
+         <button class="btn outline" >DETAILS</button>
+           <button class="btn fill">BUY NOW</button>
+         </div>
+           </div>
+       </div>
+</section>
+<section>
+
+</section>
+
+<footer>
+    With 🧡 from OK$
+    <p>09159596671</p>
+</footer>
+<script src="./script.js"></script>
+</body>
+</html>
